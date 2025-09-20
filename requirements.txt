@@ -1,6 +1,7 @@
 streamlit
+streamlit-chat
 langchain
-llama-index
-transformers
-torch
+pypdf
 sentence-transformers
+faiss-cpu
+ctransformers
