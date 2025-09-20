@@ -1,7 +1,8 @@
 streamlit
 streamlit-chat
-langchain==0.2.5
-pypdf
-sentence-transformers
-faiss-cpu
+langchain
+langchain-community
 ctransformers
+faiss-cpu
+sentence-transformers
+pypdf
