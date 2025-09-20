@@ -1,10 +1,7 @@
 streamlit
 streamlit-chat
 langchain
-langchain-community
-ctransformers
 sentence-transformers
-faiss-cpu
 torch
-pypdf
-transformers
+faiss-cpu
+ctransformers
