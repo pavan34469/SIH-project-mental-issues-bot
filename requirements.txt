@@ -1,6 +1,6 @@
 streamlit
 streamlit-chat
-langchain
+langchain==0.2.5
 pypdf
 sentence-transformers
 faiss-cpu
