@@ -228,8 +228,8 @@ text_chunks = text_splitter.split_documents(documents)
 
 # Create embeddings
 # Ensure you have an internet connection for the first run to download the model
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2",
-                                   model_kwargs={'device': "cpu"})
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
 
 # Create vectorstore
 vector_store = FAISS.from_documents(text_chunks, embeddings)
